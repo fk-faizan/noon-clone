@@ -1,0 +1,94 @@
+@import 'var';
+@import 'mixin';
+
+// Navbar
+.nav-color {
+    background-color: $bg-header;
+}
+
+.nav-item {
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    .nav-img {
+        width: 17px;
+    }
+}
+
+.custom-border {
+    border-left: 1px solid rgba(64, 69, 83, 0.2);
+}
+
+.custom-font {
+    font-weight: bold;
+}
+
+.custom-dropdown {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    .nav-link {
+        font-size: .7em;
+        line-height: 1.4em;
+    }
+    span {
+        display: block;
+        float: right;
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+    .dropdown-arrow {
+        cursor: pointer;
+        width: 0px;
+        height: 0px;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 6px solid black;
+    }
+}
+
+// Image Slider
+.slick-prev {
+    left: 8px;
+}
+
+.slick-next {
+    right: 8px;
+}
+
+.slick-prev, .slick-next {
+    z-index: 10;
+    width: 30px;
+    height: 30px;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 30px;
+    color: #272626;
+}
+
+
+// Category Circle Image List
+.category {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px 45px;
+    justify-content: space-between;
+    .category__items {
+        img {
+           width: 100px; 
+        }
+        // flex: 1;
+        flex: 0 0 calc(8.33333% - 7px);
+        cursor: pointer;
+    }
+}
+
+
+// Card
+.card {
+    border: none;
+    cursor: pointer;
+}
