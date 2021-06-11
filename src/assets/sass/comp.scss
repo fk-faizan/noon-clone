@@ -91,4 +91,25 @@
 .card {
     border: none;
     cursor: pointer;
+    
+    .card-body {
+        font-size: .9em;
+        
+        .__price {
+            font-size: 1.3em;
+        }
+    
+        .__old-price {
+            span {
+                color: rgb(56, 174, 2);
+                font-weight: bold;
+            }
+        }
+    
+        .__arrival {
+            font-size: .9em;
+        }
+    }
+
+
 }
