@@ -48,6 +48,13 @@ const Navbar = () => {
                     </div>
                 </div>
             </nav>
+
+            
+            {/* <div className="__nav-caty">
+                <div className="container-fluid">
+                    <h5>Faizan Khan</h5>
+                </div>
+            </div> */}
         </>
     )
 }

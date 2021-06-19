@@ -3,7 +3,7 @@ import React from 'react'
 const Category = () => {
     return (
         <>
-            <div className="container-fluid overflow-hidden">
+            <div className="mt-5 container-fluid overflow-hidden">
                 <div className="row category">
                     <div className="category__items">
                         <img src="https://k.nooncdn.com/cms/pages/20210609/ab5cd4c757d262915aae67797aa261f0/en_mb-category-01.png" alt="/home-kitchen-sale" class="sc-crrsfI iDhzRL" />
